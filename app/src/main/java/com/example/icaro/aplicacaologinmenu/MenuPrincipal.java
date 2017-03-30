@@ -90,7 +90,7 @@ public class MenuPrincipal extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
+            teste
         if (id == R.id.nav_login) {
             Intent exemplo = new Intent(this, LoginActivity.class);
             startActivity(exemplo);
